@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+        <h2>AMS</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="upload-assignment.html">Upload Assignment</a></li>
+            <li><a href="#">View Assignments</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Submissions</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <div class="top-bar">
+            <h1>Teacher Control Panel</h1>
+            <p>Manage students, assignments and submissions</p>
+        </div>
+
+        <!-- CARDS -->
+        <div class="cards">
+
+            <div class="card">
+                <h2>120</h2>
+                <p>Total Students</p>
+            </div>
+
+            <div class="card">
+                <h2>35</h2>
+                <p>Assignments</p>
+            </div>
+
+            <div class="card">
+                <h2>90</h2>
+                <p>Submissions</p>
+            </div>
+
+            <!-- QUICK ACTION -->
+            <div class="card action-card">
+                <h2>+</h2>
+                <p><a href="upload-assignment.html">Upload New Assignment</a></p>
+            </div>
+
+        </div>
+
+        <!-- TABLE -->
+        <div class="table-section">
+
+            <h2>Recent Assignments</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Course</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Database Project</td>
+                        <td>DBMS</td>
+                        <td>2026-06-05</td>
+                        <td class="pending">Pending</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>HTML Website</td>
+                        <td>Web Dev</td>
+                        <td>2026-06-10</td>
+                        <td class="submitted">Submitted</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>C Programming</td>
+                        <td>Programming</td>
+                        <td>2026-06-12</td>
+                        <td class="pending">Pending</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
