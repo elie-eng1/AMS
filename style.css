@@ -120,7 +120,7 @@ body{
     padding:13px;
     border:none;
     background:#2563eb;
-    color:white;
+    color:red;
     font-size:16px;
     border-radius:10px;
     cursor:pointer;
@@ -265,7 +265,7 @@ body{
 
 /* ================= TABLE ================= */
 .table-section{
-    background:white;
+    background:green;
     padding:25px;
     border-radius:18px;
     box-shadow:0 8px 20px rgba(0,0,0,0.08);
@@ -288,7 +288,7 @@ th, td{
 
 th{
     background:#2563eb;
-    color:white;
+    color:black;
 }
 
 tr:hover{
@@ -297,7 +297,7 @@ tr:hover{
 
 /* STATUS COLORS */
 .pending{
-    color:#dc2626;
+    color:brown;
     font-weight:bold;
 }
 
